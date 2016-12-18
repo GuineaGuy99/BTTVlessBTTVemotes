@@ -20,7 +20,7 @@ Instructions: https://mreidsma.github.io/bookmarklets/installing.html
 if you experience any bugs or issues, please send me a tweet at @GuineaGuy99
 ## Changelog
 - v1.5
-	- fixed an issue with duplicate emotes showing.
+	- Fixed an issue with duplicate emotes showing.
 - v1.4 
 	- Fixed a bug where the emotes would not show. (special thanks to Agnostics).
 
