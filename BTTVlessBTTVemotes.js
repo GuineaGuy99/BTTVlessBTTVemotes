@@ -11,7 +11,7 @@ $.getJSON('https://api.betterttv.net/2/emotes',(e)=>{
 				var messageElement = mutation.addedNodes[0];
 				if (messageElement == undefined) return false;
 				if (messageElement.nodeType !== 1) return false;
-				var messageTextElement = $(`#${messageElement.id} .message`)
+				var messageTextElement = $(`#${messageElement.id} .message`);
 				emotes.forEach((emote)=>{
 					var regexp = new RegExp(escapeRegExp(emote.code), 'g'),
 						newMessageHTML = messageTextElement.html().replace(regexp, `
@@ -28,7 +28,7 @@ $.getJSON('https://api.betterttv.net/2/emotes',(e)=>{
 
 	function checkOnlyInstance(){
 		if (window.BTTVlessBTTVemotes) throw new Error('BTTVless BTTVemotes by GuineaGuy99 is already running!');
-		window.BTTVlessBTTVemotes = true
+		window.BTTVlessBTTVemotes = true;
 	}
 	function log(str){
 		console.log(str);

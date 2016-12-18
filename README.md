@@ -4,16 +4,12 @@ Ever wanted to have Better Twitch TV (BTTV) emotes on Twitch without the bloat o
 Simply paste the following code into your javascript console while viewing a stream in order to initiate BTTVless BTTVemotes!
 ```javascript
 /* BTTVless BTTVemotes by GuineaGuy99 */
-!function(){var e=document.createElement("script");e.src="http://pastebin.com/raw/NgfNXe5G",e.onerror=function(){throw new
-Error("could not load BTTVless BTTVemotes by GuineaGuy99, please try again later.")},document.body.appendChild(e)}();
+!function(){var e=document.createElement("script");e.src="https://cdn.rawgit.com/GuineaGuy99/BTTVlessBTTVemotes/master/BTTVlessBTTVemotes.min.js",e.onerror=function(){throw new Error("could not load BTTVless BTTVemotes by GuineaGuy99, please try again later.")},document.body.appendChild(e)}();
 ```
 ## Bookmarklet
 Prefer the convenience of a bookmarklet? Here is the above code in bookmarklet form!
 ```javascript
-javascript:(function()%7B%2F*%20BTTVless%20BTTVemotes%20by%20GuineaGuy99%20*%2F!function()%7Bvar%20e%3Ddocument.createElement
-(%22script%22)%3Be.src%3D%22http%3A%2F%2Fpastebin.com%2Fraw%2FNgfNXe5G%22%2Ce.onerror%3Dfunction()%7Bthrow%20
-new%20Error(%22could%20not%20load%20BTTVless%20BTTVemotes%20by%20GuineaGuy99%2C%20please%20try%20again%20later.%22)
-%7D%2Cdocument.body.appendChild(e)%7D()%7D)()
+javascript:(function()%7B%2F*%20BTTVless%20BTTVemotes%20by%20GuineaGuy99%20*%2F!function()%7Bvar%20e%3Ddocument.createElement(%22script%22)%3Be.src%3D%22https%3A%2F%2Fcdn.rawgit.com%2FGuineaGuy99%2FBTTVlessBTTVemotes%2Fmaster%2FBTTVlessBTTVemotes.min.js%22%2Ce.type%3D%22text%2Fjavascript%22%2Ce.onerror%3Dfunction()%7Bthrow%20newError(%22could%20not%20load%20BTTVless%20BTTVemotes%20by%20GuineaGuy99%2C%20please%20try%20again%20later.%22)%7D%2Cdocument.body.appendChild(e)%7D()%7D)()
 ```
 if you don't know what a bookmarklet is, here is an explanation on what a bookmarklet is and instructions on how to create one!
  
